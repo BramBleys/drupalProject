@@ -1,0 +1,6 @@
+name: Thomas More Social Media
+description: 'Creates social media links to your social media channels.'
+package: Thomas More
+dependencies: system
+type: module
+core: 8.x
