@@ -798,6 +798,22 @@ $databases['default']['default'] = array (
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_7Zi5hsV3ZrV4-Vib5OX_NTGNUfhaTurLp1187Dcd7O-sHFm-mJNpWJzQHQNvhofxEPBHNf6Egg/sync';
 
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+
+/**
+ * Show all error messages, with backtrace information.
+ *
+ * In case the error level could not be fetched from the database, as for
+ * example the database connection failed, we rely only on this value.
+ */
+$config['system.logging']['error_level'] = 'verbose';
+
+/**
+ * Disable CSS and JS aggregation.
+ */
+$config['system.performance']['css']['preprocess'] = FALSE;
+$config['system.performance']['js']['preprocess'] = FALSE;
+
 /**
 * Disable the render cache.
  *
@@ -810,7 +826,7 @@ $config_directories['sync'] = 'sites/default/files/config_7Zi5hsV3ZrV4-Vib5OX_NT
  *
  * Only use this setting once the site has been installed.
  */
-# $settings['cache']['bins']['render'] = 'cache.backend.null';
+ $settings['cache']['bins']['render'] = 'cache.backend.null';
 
 /**
  * Disable caching for migrations.
@@ -818,7 +834,7 @@ $config_directories['sync'] = 'sites/default/files/config_7Zi5hsV3ZrV4-Vib5OX_NT
  * Uncomment the code below to only store migrations in memory and not in the
  * database. This makes it easier to develop custom migrations.
  */
-# $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
+ $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
 
 /**
  * Disable Internal Page Cache.
@@ -832,4 +848,4 @@ $config_directories['sync'] = 'sites/default/files/config_7Zi5hsV3ZrV4-Vib5OX_NT
  *
  * Only use this setting once the site has been installed.
  */
-# $settings['cache']['bins']['page'] = 'cache.backend.null';
+ $settings['cache']['bins']['page'] = 'cache.backend.null';

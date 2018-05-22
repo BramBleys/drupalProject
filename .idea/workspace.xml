@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612da1c3-7792-400e-bfca-bc7bce61de26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/behat/mink" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/behat/mink" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drupal/coder" afterDir="false" />
     </list>
@@ -68,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#7#43#0#PHP" expanded="true" />
               </folding>
@@ -80,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -88,8 +83,8 @@
       <file leaf-file-name="social-media.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -362,12 +357,12 @@
       <workItem from="1525769933694" duration="552000" />
       <workItem from="1525772734284" duration="163000" />
       <workItem from="1526971686822" duration="5815000" />
-      <workItem from="1526979071507" duration="3605000" />
+      <workItem from="1526979071507" duration="3969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10135000" />
+    <option name="totallyTimeSpent" value="10499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1309" height="648" extended-state="6" />
@@ -493,14 +488,14 @@
     <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#7#43#0#PHP" expanded="true" />
           </folding>
@@ -509,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
