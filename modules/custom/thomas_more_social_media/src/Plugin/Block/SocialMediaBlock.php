@@ -20,7 +20,9 @@ class SocialMediaBlock extends BlockBase {
    */
 
   public function build() {
-
+    return [
+      '#theme' => 'social-media'
+    ];
   }
 
 }

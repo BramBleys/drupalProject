@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="612da1c3-7792-400e-bfca-bc7bce61de26" name="Default" comment="" />
+    <list default="true" id="612da1c3-7792-400e-bfca-bc7bce61de26" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/behat/mink" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/behat/mink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drupal/coder" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,20 +64,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocialMediaBlock.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php">
+      <file leaf-file-name="thomas_more_social_media.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#7#43#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <file leaf-file-name="SocialMediaBlock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="815" column="29" selection-start-line="815" selection-start-column="29" selection-end-line="815" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="social-media.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,6 +102,9 @@
       <command text="ls -l" />
     </commandsHistory>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -90,8 +113,10 @@
         <option value="$PROJECT_DIR$/core/modules/custom/thomas_more_social_media/thomas_more_social_media.info.yml" />
         <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.info.yml" />
         <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/thomas_more_social_media_block.php" />
-        <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module" />
+        <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php" />
       </list>
     </option>
   </component>
@@ -228,6 +253,7 @@
     <option name="width" value="645" />
     <option name="height" value="555" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -243,13 +269,55 @@
             <path>
               <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas_more_social_media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas_more_social_media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas_more_social_media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas_more_social_media" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drupal-8.5.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal-8.5.3" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas_more_social_media" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,24 +362,24 @@
       <workItem from="1525769933694" duration="552000" />
       <workItem from="1525772734284" duration="163000" />
       <workItem from="1526971686822" duration="5815000" />
-      <workItem from="1526979071507" duration="996000" />
+      <workItem from="1526979071507" duration="3605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7526000" />
+    <option name="totallyTimeSpent" value="10135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="25" width="1309" height="743" extended-state="6" />
+    <frame x="51" y="25" width="1309" height="648" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17188694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17952636" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002758" side_tool="true" weight="0.3995272" />
       <window_info anchor="right" id="Database" order="3" weight="0.32984003" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -408,6 +476,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="815" column="29" selection-start-line="815" selection-start-column="29" selection-end-line="815" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -417,15 +492,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/src/Plugin/Block/SocialMediaBlock.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+    <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/thomas_more_social_media.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="815" column="29" selection-start-line="815" selection-start-column="29" selection-end-line="815" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#7#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/thomas_more_social_media/templates/social-media.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
