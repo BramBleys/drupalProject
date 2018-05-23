@@ -28,27 +28,27 @@ class SettingsForm extends FormBase {
     $form['facebook_url'] = [
       '#type' => 'url',
       '#title' => 'Facebook URL',
-      '#default_value' => \Drupal::state()->get('thomas_more_social_media.facebook_url'),
+      '#default_value' => $this->state->get('thomas_more_social_media.facebook_url'),
     ];
     $form['google_plus_url'] = [
       '#type' => 'url',
       '#title' => 'Google Plus URL',
-      '#default_value' => \Drupal::state()->get('thomas_more_social_media.google_plus_url'),
+      '#default_value' => $this->state->get('thomas_more_social_media.google_plus_url'),
     ];
     $form['twitter_url'] = [
       '#type' => 'url',
       '#title' => 'Twitter URL',
-      '#default_value' => \Drupal::state()->get('thomas_more_social_media.twitter_url'),
+      '#default_value' => $this->state->get('thomas_more_social_media.twitter_url'),
     ];
     $form['linkedin_url'] = [
       '#type' => 'url',
       '#title' => 'Linkedin URL',
-      '#default_value' => \Drupal::state()->get('thomas_more_social_media.linkedin_url'),
+      '#default_value' => $this->state->get('thomas_more_social_media.linkedin_url'),
     ];
     $form['foursquare_url'] = [
       '#type' => 'url',
       '#title' => 'Foursquare URL',
-      '#default_value' => \Drupal::state()->get('thomas_more_social_media.foursquare_url'),
+      '#default_value' => $this->state->get('thomas_more_social_media.foursquare_url'),
     ];
 
     $form['submit'] = [
