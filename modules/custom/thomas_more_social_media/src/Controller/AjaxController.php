@@ -2,37 +2,30 @@
 
 namespace Drupal\thomas_more_social_media\Controller;
 
-use Drupal\Component\Datetime\TimeInterface;
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\Core\Database\Connection;
+use Drupal\thomas_more_social_media\ClickManager;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class AjaxController extends ControllerBase {
 
-  protected $connection;
+  protected $clickManager;
 
-  protected $time;
-
-  public function __construct(Connection $connection, TimeInterface $time) {
-    $this->connection = $connection;
-    $this->time = $time;
+  public function __construct(ClickManager $clickManager) {
+    $this->clickManager = $clickManager;
   }
 
   public static function create(ContainerInterface $container) {
     return new static(
-      $container->get('database'),
-      $container->get('datetime.time')
+      $container->get('thomas_more_social_media.click_manager')
     );
   }
 
   public function counter(Request $request) {
-    $this->connection->insert('thomas_more_social_media_counter')
-      ->fields([
-        'network' => $request->get('network'),
-        'time_clicked' => $this->time->getRequestTime(),
-      ])->execute();
+    if (!$this->currentUser()->hasPermission('skip tracking clicks')) {
+      $this->clickManager->addClick($request->get('network'));
+    }
 
     return new Response('Ok');
   }
