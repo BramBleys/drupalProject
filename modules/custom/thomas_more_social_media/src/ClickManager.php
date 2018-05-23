@@ -30,4 +30,11 @@ class ClickManager {
     $query->condition('t.network', $network);
     return (int) $query->countQuery()->execute()->fetchField();
   }
+
+  public function removeClicks(string $network) {
+  $query = $this->connection->delete('thomas_more_social_media_counter');
+  $query->condition('network', $network);
+  return $query->execute();
+  }
+
 }

@@ -7,7 +7,7 @@
         'network': $(this).data('network'),
       },
       success: function(resp) {
-        console.log(resp);
+        console.log('Great_Success');
       },
       error: function() {
         console.log('Error_log_')

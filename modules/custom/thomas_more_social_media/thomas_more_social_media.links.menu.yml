@@ -3,3 +3,9 @@ thomas_more_social_media.admin.settings:
   parent: system.admin_config_ui
   description: 'Configure Social media links.'
   route_name: thomas_more_social_media.admin.settings
+
+thomas_more_social_media.reset_counters:
+  title: 'Reset Social Media Counters'
+  parent: system.admin_config_ui
+  description: 'Reset social media counters.'
+  route_name: thomas_more_social_media.reset_counters
