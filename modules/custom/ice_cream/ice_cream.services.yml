@@ -1,0 +1,4 @@
+services:
+  ice_cream.dessert_manager:
+    class: Drupal\ice_cream\DessertManager
+    arguments: ['@database', '@datetime.time']

@@ -1,0 +1,48 @@
+<?php
+
+function ice_cream_schema() {
+  $schema['ice_cream_desserts'] = [
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'dessert' => [
+        'description' => 'Type dessert',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'dessertOrder' => [
+        'description' => 'Order',
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'time_clicked' => [
+        'description' => 'The Unix timestamp when the user submitted the form.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+    ],
+    'primary key' => [
+      'id',
+    ],
+  ];
+
+  return $schema;
+}
+
+/**
+ * Create Ice Cream Desserts table.
+ */
+function ice_cream_update_8004(&$sandbox) {
+  $table = ice_cream_schema();
+  \Drupal::database()->schema()->createTable('ice_cream_desserts', $table['ice_cream_desserts']);
+}

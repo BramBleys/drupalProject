@@ -1,7 +1,7 @@
 <?php
 
-/* modules/custom/ice_cream/templates/flavors.html.twig */
-class __TwigTemplate_4e8f93a9dd79d5128aae5365b9a380ac01955b38f88bac018410b451bcd35915 extends Twig_Template
+/* core/themes/classy/templates/form/form.html.twig */
+class __TwigTemplate_13d9648e31d4c684e1fa61f54c294a50992d08ddc86d069793617372c3ab785b extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -39,34 +39,31 @@ class __TwigTemplate_4e8f93a9dd79d5128aae5365b9a380ac01955b38f88bac018410b451bcd
             throw $e;
         }
 
-        // line 1
-        echo "<div class=\"ice_cream-links\">
-  <a href=\"#\" class=\"ice_cream\" data-choice=\"ice_cream\">
-  Ice Cream
-  </a>
-  <a href=\"#\" class=\"waffle\" data-choice=\"waffle\">
-  Waffles
-  </a>
-</div>
-
-<div class=\"grid-6\" id=\"ice_cream_form\">
-Ice Cream
-</div>
-
-<div class=\"grid-6\" id=\"waffle_form\">
-Waffles
-</div>
+        // line 13
+        echo "<form";
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["attributes"] ?? null), "html", null, true));
+        echo ">
+  ";
+        // line 14
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["children"] ?? null), "html", null, true));
+        echo "
+</form>
 ";
     }
 
     public function getTemplateName()
     {
-        return "modules/custom/ice_cream/templates/flavors.html.twig";
+        return "core/themes/classy/templates/form/form.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
     }
 
     public function getDebugInfo()
     {
-        return array (  43 => 1,);
+        return array (  48 => 14,  43 => 13,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -79,6 +76,6 @@ Waffles
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "modules/custom/ice_cream/templates/flavors.html.twig", "/home/drupal8/Projects/drupal-8.5.3/modules/custom/ice_cream/templates/flavors.html.twig");
+        return new Twig_Source("", "core/themes/classy/templates/form/form.html.twig", "/home/drupal8/Projects/drupal-8.5.3/core/themes/classy/templates/form/form.html.twig");
     }
 }
