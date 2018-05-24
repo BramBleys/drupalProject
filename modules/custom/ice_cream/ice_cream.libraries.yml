@@ -1,0 +1,10 @@
+ice_cream:
+  version: VERSION
+  css:
+    component:
+      https://use.fontawesome.com/releases/v5.0.13/css/all.css: { type: external }
+      assets/css/ice_cream.css : {}
+  js:
+    assets/js/ice_cream.js: {}
+  dependencies:
+    - core/jquery

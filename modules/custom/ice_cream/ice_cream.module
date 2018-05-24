@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function ice_cream_theme() {
+  return [
+    'flavors' => [
+      'variables' => [
+
+      ],
+    ],
+  ];
+}

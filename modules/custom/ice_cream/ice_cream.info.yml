@@ -1,0 +1,6 @@
+name: Ice Cream
+description: 'A module for ordering ice cream.'
+package: Thomas More
+dependencies: system
+type: module
+core: 8.x

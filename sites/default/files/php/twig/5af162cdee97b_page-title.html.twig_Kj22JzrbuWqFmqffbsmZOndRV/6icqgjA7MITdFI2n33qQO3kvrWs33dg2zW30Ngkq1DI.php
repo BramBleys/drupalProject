@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/form/checkboxes.html.twig */
-class __TwigTemplate_0b499418c4a2bde5132c080cb739e80414b1eda01d5580dd3e86727a36d0e41a extends Twig_Template
+/* @classy/content/page-title.html.twig */
+class __TwigTemplate_13b86f2f82af26e43762e99878b5f045e66cc8e0a2c06778692a8f360baef8c3 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -15,13 +15,13 @@ class __TwigTemplate_0b499418c4a2bde5132c080cb739e80414b1eda01d5580dd3e86727a36d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array();
+        $tags = array("if" => 16);
         $filters = array();
         $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
-                array(),
+                array('if'),
                 array(),
                 array()
             );
@@ -40,17 +40,28 @@ class __TwigTemplate_0b499418c4a2bde5132c080cb739e80414b1eda01d5580dd3e86727a36d
         }
 
         // line 15
-        echo "<div";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["attributes"] ?? null), "addClass", array(0 => "form-checkboxes"), "method"), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["children"] ?? null), "html", null, true));
-        echo "</div>
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title_prefix"] ?? null), "html", null, true));
+        echo "
+";
+        // line 16
+        if (($context["title"] ?? null)) {
+            // line 17
+            echo "  <h1";
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["title_attributes"] ?? null), "addClass", array(0 => "page-title"), "method"), "html", null, true));
+            echo ">";
+            echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title"] ?? null), "html", null, true));
+            echo "</h1>
+";
+        }
+        // line 19
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title_suffix"] ?? null), "html", null, true));
+        echo "
 ";
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/form/checkboxes.html.twig";
+        return "@classy/content/page-title.html.twig";
     }
 
     public function isTraitable()
@@ -60,7 +71,7 @@ class __TwigTemplate_0b499418c4a2bde5132c080cb739e80414b1eda01d5580dd3e86727a36d
 
     public function getDebugInfo()
     {
-        return array (  43 => 15,);
+        return array (  57 => 19,  49 => 17,  47 => 16,  43 => 15,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -73,6 +84,6 @@ class __TwigTemplate_0b499418c4a2bde5132c080cb739e80414b1eda01d5580dd3e86727a36d
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "core/themes/classy/templates/form/checkboxes.html.twig", "/home/drupal8/Projects/drupal-8.5.3/core/themes/classy/templates/form/checkboxes.html.twig");
+        return new Twig_Source("", "@classy/content/page-title.html.twig", "/home/drupal8/Projects/drupal-8.5.3/core/themes/classy/templates/content/page-title.html.twig");
     }
 }

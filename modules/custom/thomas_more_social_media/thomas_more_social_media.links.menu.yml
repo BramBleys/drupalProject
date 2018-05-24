@@ -9,3 +9,9 @@ thomas_more_social_media.reset_counters:
   parent: system.admin_config_ui
   description: 'Reset social media counters.'
   route_name: thomas_more_social_media.reset_counters
+
+thomas_more_social_media.charts:
+  title: 'Social Media Charts'
+  parent: system.admin_config_ui
+  description: 'View Social Media Charts.'
+  route_name: thomas_more_social_media.charts
